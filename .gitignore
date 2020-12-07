@@ -1,0 +1,38 @@
+###> symfony/framework-bundle ###
+.env
+/www/bundles/
+/www/uploads/
+/www/tmp/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+node_modules
+bower_components
+
+Thumbs.db
+php-cs-fixer.phar
+.DS_Store
+.idea
+__*
+._*
+Vagrantfile
+.vagrant*
+*.sublime-*
+.*.swp
+.swp
+
+assets/.sass-cache/
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/www/build/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
+
+.nvmrc
+
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###

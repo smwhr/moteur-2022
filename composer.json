@@ -1,0 +1,12 @@
+{
+  "autoload":{
+    "psr-4":{
+      "Cardofony\\": "Cardofony/src",
+      "Bataille\\": "Bataille/src",
+      "BlackJack\\": "BlackJack/src",
+      "Poker\\": "Poker/src"
+    }
+  },
+  "require": {
+  }
+}
