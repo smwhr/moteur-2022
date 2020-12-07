@@ -10,6 +10,11 @@
   <title>La Bataille</title>
 </head>
 <body>
+
+  <?php
+  $julien = new Bataille\Model\Player("Julien");
+  var_dump($julien);
+  ?>
   
 </body>
 </html>
