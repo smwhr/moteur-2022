@@ -81,6 +81,12 @@ Features :
  - La notion de tour
  - Définir un set de règles qui met en jeu les items ci-dessus
 
+Trois implémentions du moteur
+ - Un BlackJack
+ - Bataille
+ - Poker
+
+
 
 
 
