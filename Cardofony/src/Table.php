@@ -3,17 +3,17 @@
 namespace Cardofony;
 
 class Table{
-  private $player;
+  private $players = [];
 
   public function addPlayer($player){
-    $this->player = $player;
+    $this->players[] = $player;
   }
 
   public function hasPlayer($player){
-    return true;
+    return in_array($player, $this->players);
   }
 
   public function getPlayers(){
-    return [$this->player];
+    return $this->players;
   }
 }

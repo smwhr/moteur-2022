@@ -11,7 +11,7 @@ class Player{
   }
 
   public function getName(){
-    return "Julien";
+    return $this->name;
   }
 }
 

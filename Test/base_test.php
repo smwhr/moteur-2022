@@ -7,8 +7,14 @@ $joueur = \Cardofony\Cardofony::newPlayer("Julien");
 assert($joueur instanceof \Cardofony\Player);
 assert($joueur->getName() == "Julien");
 
+
+$joueur2 = \Cardofony\Cardofony::newPlayer("Caroline");
+assert($joueur2 instanceof \Cardofony\Player);
+assert($joueur2->getName() != "Julien");
+assert($joueur2->getName() == "Caroline");
+
 // Feature 2
-// créer une tabke
+// créer une table
 $table = \Cardofony\Cardofony::newTable();
 assert($table instanceof \Cardofony\Table);
 
@@ -16,6 +22,10 @@ assert($table instanceof \Cardofony\Table);
 // un joueur peut rejoindre une table
 $table->addPlayer($joueur);
 assert($table->hasPlayer($joueur));
+assert(!$table->hasPlayer($joueur2));
+
+$table->addPlayer($joueur2);
 
 $participants = $table->getPlayers();
+assert(count($participants) == 2);
 assert(in_array($joueur, $participants));
