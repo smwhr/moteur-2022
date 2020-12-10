@@ -25,6 +25,8 @@ Features :
     - un joueur peut rejoindre une table
     - lister les joueurs d'une table
  - Des decks de cartes
+    - compter les cartes
+    - tirer une carte
  - Des jetons / une banque
  - La notion de tour
  - Définir un set de règles qui met en jeu les items ci-dessus

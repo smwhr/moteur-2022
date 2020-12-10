@@ -71,23 +71,6 @@ Cas : si le 26 décembre, la tâche B n'a pas commencé : 2j de retard
 
 
 
-## Comment organiser son projet PHP lorsque l'on conçoit un moteur/framework
-Mon projet : Un moteur de jeu de cartes
-Features :
- - Une table
- - Des decks
- - Des joueurs
- - Des jetons / une banque
- - La notion de tour
- - Définir un set de règles qui met en jeu les items ci-dessus
-
-Trois implémentions du moteur
- - Un BlackJack
- - Bataille
- - Poker
-
-
-
 
 
 

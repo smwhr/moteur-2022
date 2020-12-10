@@ -10,6 +10,17 @@
   <title>Le BlackJack</title>
 </head>
 <body>
+
+  <?php
+    $player = Cardofony::newPlayer("You");
+    $banque = Cardofony::newPlayer("Banque");
+
+
+    $table = Cardofony::newTable();
+    $table->addPlayer($banque);
+    $table->addPlayer($player);
+
+  ?>
   
 </body>
 </html>

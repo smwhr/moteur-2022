@@ -25,7 +25,15 @@ assert($table->hasPlayer($joueur));
 assert(!$table->hasPlayer($joueur2));
 
 $table->addPlayer($joueur2);
+assert($table->hasPlayer($joueur2));
 
+//Feature 2.2
+// lister les joueurs d'une table
 $participants = $table->getPlayers();
 assert(count($participants) == 2);
 assert(in_array($joueur, $participants));
+assert(in_array($joueur2, $participants));
+
+
+
+echo "Ok !\n";
