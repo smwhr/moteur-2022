@@ -12,11 +12,11 @@
 <body>
 
   <?php
-    $player = Cardofony::newPlayer("You");
-    $banque = Cardofony::newPlayer("Banque");
+    $player = \Cardofony\Cardofony::newPlayer("You");
+    $banque = \Cardofony\Cardofony::newPlayer("Banque");
 
 
-    $table = Cardofony::newTable();
+    $table = \Cardofony\Cardofony::newTable();
     $table->addPlayer($banque);
     $table->addPlayer($player);
 

@@ -5,6 +5,7 @@
 /www/tmp/
 /var/
 /vendor/
+vendor
 ###< symfony/framework-bundle ###
 node_modules
 bower_components

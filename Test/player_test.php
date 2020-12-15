@@ -4,6 +4,7 @@ require_once(__DIR__.'/../vendor/autoload.php');
 // Feature 1
 // créer des joueurs
 $joueur = \Cardofony\Cardofony::newPlayer("Julien");
+
 assert($joueur instanceof \Cardofony\Player);
 assert($joueur->getName() == "Julien");
 
